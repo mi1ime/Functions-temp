@@ -11,7 +11,7 @@ test('statusWounded', () => {
   expect(result).toBe('wounded');
 });
 test('statusCritical', () => {
-  const player = { name: 'Маг', health: 12 };
+  const player = { name: 'Маг', health: 15 };
   const result = hpStatus(player);
   expect(result).toBe('critical');
 });
